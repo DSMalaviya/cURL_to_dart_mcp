@@ -1,6 +1,6 @@
 {
   "name": "curl-to-dart-mcp",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "MCP server that converts cURL JSON responses into Dart models using QuickType",
   "main": "dist/server.js",
   "bin": {
