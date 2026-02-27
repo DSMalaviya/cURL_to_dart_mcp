@@ -1,0 +1,38 @@
+{
+  "name": "curl-to-dart-mcp",
+  "version": "1.0.0",
+  "description": "MCP server that converts cURL JSON responses into Dart models using QuickType",
+  "main": "dist/server.js",
+  "bin": {
+    "curl-to-dart-mcp": "dist/server.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
+  },
+  "files": [
+    "dist"
+  ],
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "dart",
+    "flutter",
+    "quicktype",
+    "curl"
+  ],
+  "author": "Darshan M",
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.27.1",
+    "quicktype-core": "^23.2.6",
+    "zod": "^4.3.6"
+  },
+  "devDependencies": {
+    "@tsconfig/node-lts": "^24.0.0",
+    "@types/node": "^25.3.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  }
+}
